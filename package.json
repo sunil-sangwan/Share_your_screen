@@ -1,0 +1,17 @@
+{
+  "name": "screen-app",
+  "version": "0.0.2",
+  "description": "Screen share App",
+  "main": "server.js",
+  "dependencies": {
+    "websocket": "^1.0.23",
+    "websockets": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "shark_s",
+  "license": "ISC"
+}
