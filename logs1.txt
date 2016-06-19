@@ -1,21 +1,3 @@
-2016-06-19T04:35:03.820265+00:00 app[web.1]: 
-2016-06-19T04:35:03.820266+00:00 app[web.1]: Error: listen EACCES 0.0.0.0:443
-2016-06-19T04:35:03.820277+00:00 app[web.1]:     at Function.Module._load (module.js:314:12)
-2016-06-19T04:35:03.836160+00:00 app[web.1]: npm ERR! Failed at the screen-app@0.0.2 start script 'node server.js'.
-2016-06-19T04:35:03.837080+00:00 app[web.1]: npm ERR!     npm owner ls screen-app
-2016-06-19T04:35:03.820267+00:00 app[web.1]:     at Object.exports._errnoException (util.js:893:11)
-2016-06-19T04:35:03.827208+00:00 app[web.1]: 
-2016-06-19T04:35:03.836273+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
-2016-06-19T04:35:03.837171+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
-2016-06-19T04:35:03.820268+00:00 app[web.1]:     at exports._exceptionWithHostPort (util.js:916:20)
-2016-06-19T04:35:03.834124+00:00 app[web.1]: npm ERR! Linux 3.13.0-85-generic
-2016-06-19T04:35:03.836374+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the screen-app package,
-2016-06-19T04:35:03.840597+00:00 app[web.1]: 
-2016-06-19T04:35:03.820268+00:00 app[web.1]:     at Server.__dirname.Server.Server._listen2 (net.js:1233:19)
-2016-06-19T04:35:03.834501+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
-2016-06-19T04:35:03.836475+00:00 app[web.1]: npm ERR! not with npm itself.
-2016-06-19T04:35:03.840802+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
-2016-06-19T04:35:03.820270+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:25:8)
 2016-06-19T04:35:03.835719+00:00 app[web.1]: npm ERR! code ELIFECYCLE
 2016-06-19T04:35:03.836687+00:00 app[web.1]: npm ERR!     node server.js
 2016-06-19T04:35:03.820269+00:00 app[web.1]:     at listen (net.js:1282:10)
@@ -99,3 +81,21 @@
 2016-06-19T13:44:34.582043+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/" host=seeittogether.herokuapp.com request_id=6eec9a7e-9f48-4c74-aeba-23353e9e47ac fwd="82.240.252.61" dyno=web.1 connect=0ms service=1ms status=503 bytes=0
 2016-06-19T13:44:35.187887+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/favicon.ico" host=seeittogether.herokuapp.com request_id=c3007c0e-640c-4e99-bd84-792ed32acebf fwd="2a01:e35:2f0f:c3d0:b186:4149:8cf7:fefc,66.249.93.202" dyno=web.1 connect=0ms service=3ms status=503 bytes=0
 2016-06-19T13:44:35.437418+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/favicon.ico" host=seeittogether.herokuapp.com request_id=c79c346d-9004-4b1a-baf1-3973162255af fwd="82.240.252.61" dyno=web.1 connect=0ms service=1ms status=503 bytes=0
+2016-06-19T13:55:46.909170+00:00 heroku[api]: Deploy a45abd2 by sunilsangwan0098@gmail.com
+2016-06-19T13:55:47.096367+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-19T13:55:47.096376+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-19T13:55:46.909219+00:00 heroku[api]: Release v6 created by sunilsangwan0098@gmail.com
+2016-06-19T13:55:47.504028+00:00 heroku[web.1]: Restarting
+2016-06-19T13:55:47.504277+00:00 heroku[web.1]: State changed from up to starting
+2016-06-19T13:55:49.111734+00:00 heroku[web.1]: Starting process with command `npm start`
+2016-06-19T13:55:50.425859+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-19T13:55:51.122250+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2016-06-19T13:55:52.033013+00:00 heroku[web.1]: Process exited with status 22
+2016-06-19T13:55:53.781579+00:00 app[web.1]: 
+2016-06-19T13:55:53.781572+00:00 app[web.1]: > screen-app@0.0.2 start /app
+2016-06-19T13:55:53.781578+00:00 app[web.1]: > node server.js
+2016-06-19T13:55:53.781561+00:00 app[web.1]: 
+2016-06-19T13:55:55.775284+00:00 heroku[web.1]: State changed from starting to up
+2016-06-19T13:55:55.927195+00:00 app[web.1]: Sun Jun 19 2016 13:55:55 GMT+0000 (UTC) Server is listening on port 443
+2016-06-19T13:55:56.499854+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/" host=seeittogether.herokuapp.com request_id=24ce3ba0-9f38-4f54-aee9-2d5248741d93 fwd="110.172.160.202" dyno=web.1 connect=1ms service=1ms status=503 bytes=0
+2016-06-19T13:56:03.368126+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/" host=seeittogether.herokuapp.com request_id=e4caa0ca-c149-4d7c-9ed6-aa058dfb8f76 fwd="110.172.160.202" dyno=web.1 connect=0ms service=3ms status=503 bytes=0
