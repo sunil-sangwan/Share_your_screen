@@ -73,7 +73,7 @@
 //var  socket = new WebSocket(host);
    // var serverLoc = new WebSocket(host);
   var hostArray = window.location.host.split(':');
-  var port = process.env.PORT || 443
+  var port = 443
 
   var serverLoc = 'wss://' + hostArray[0] + ':'+port+'/'
   var socket = new WebSocket(serverLoc);

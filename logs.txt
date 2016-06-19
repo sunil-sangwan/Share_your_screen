@@ -1,0 +1,101 @@
+2016-06-18T22:43:41.550304+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2016-06-18T22:43:41.550551+00:00 app[web.1]: npm ERR!     node server.js
+2016-06-18T22:43:41.550715+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2016-06-18T22:43:41.550885+00:00 app[web.1]: npm ERR!     npm bugs screen-app
+2016-06-18T22:43:41.551040+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2016-06-18T22:43:41.551210+00:00 app[web.1]: npm ERR!     npm owner ls screen-app
+2016-06-18T22:43:41.551371+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2016-06-18T22:43:41.556075+00:00 app[web.1]: 
+2016-06-18T22:43:41.556501+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2016-06-18T22:43:41.556341+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2016-06-18T22:43:42.396274+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-18T22:43:42.417726+00:00 heroku[web.1]: Process exited with status 1
+2016-06-19T04:35:00.828210+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-19T04:35:01.866376+00:00 heroku[web.1]: Starting process with command `npm start`
+2016-06-19T04:35:03.686365+00:00 app[web.1]: 
+2016-06-19T04:35:03.686381+00:00 app[web.1]: > screen-app@0.0.2 start /app
+2016-06-19T04:35:03.686388+00:00 app[web.1]: > node server.js
+2016-06-19T04:35:03.686389+00:00 app[web.1]: 
+2016-06-19T04:35:03.820226+00:00 app[web.1]: events.js:154
+2016-06-19T04:35:03.820261+00:00 app[web.1]:       throw er; // Unhandled 'error' event
+2016-06-19T04:35:03.820264+00:00 app[web.1]:       ^
+2016-06-19T04:35:03.820265+00:00 app[web.1]: 
+2016-06-19T04:35:03.820266+00:00 app[web.1]: Error: listen EACCES 0.0.0.0:443
+2016-06-19T04:35:03.820277+00:00 app[web.1]:     at Function.Module._load (module.js:314:12)
+2016-06-19T04:35:03.836160+00:00 app[web.1]: npm ERR! Failed at the screen-app@0.0.2 start script 'node server.js'.
+2016-06-19T04:35:03.837080+00:00 app[web.1]: npm ERR!     npm owner ls screen-app
+2016-06-19T04:35:03.820267+00:00 app[web.1]:     at Object.exports._errnoException (util.js:893:11)
+2016-06-19T04:35:03.827208+00:00 app[web.1]: 
+2016-06-19T04:35:03.836273+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2016-06-19T04:35:03.837171+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2016-06-19T04:35:03.820268+00:00 app[web.1]:     at exports._exceptionWithHostPort (util.js:916:20)
+2016-06-19T04:35:03.834124+00:00 app[web.1]: npm ERR! Linux 3.13.0-85-generic
+2016-06-19T04:35:03.836374+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the screen-app package,
+2016-06-19T04:35:03.840597+00:00 app[web.1]: 
+2016-06-19T04:35:03.820268+00:00 app[web.1]:     at Server.__dirname.Server.Server._listen2 (net.js:1233:19)
+2016-06-19T04:35:03.834501+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2016-06-19T04:35:03.836475+00:00 app[web.1]: npm ERR! not with npm itself.
+2016-06-19T04:35:03.840802+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2016-06-19T04:35:03.820270+00:00 app[web.1]:     at Object.<anonymous> (/app/server.js:25:8)
+2016-06-19T04:35:03.835719+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2016-06-19T04:35:03.836687+00:00 app[web.1]: npm ERR!     node server.js
+2016-06-19T04:35:03.820269+00:00 app[web.1]:     at listen (net.js:1282:10)
+2016-06-19T04:35:03.834655+00:00 app[web.1]: npm ERR! node v5.11.1
+2016-06-19T04:35:03.836577+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2016-06-19T04:35:03.840913+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2016-06-19T04:35:03.820270+00:00 app[web.1]:     at Server.__dirname.Server.Server.listen (net.js:1378:5)
+2016-06-19T04:35:03.835331+00:00 app[web.1]: npm ERR! npm  v3.8.6
+2016-06-19T04:35:03.820271+00:00 app[web.1]:     at Module._compile (module.js:413:34)
+2016-06-19T04:35:03.835837+00:00 app[web.1]: npm ERR! screen-app@0.0.2 start: `node server.js`
+2016-06-19T04:35:03.836785+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2016-06-19T04:35:03.820272+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:422:10)
+2016-06-19T04:35:03.835938+00:00 app[web.1]: npm ERR! Exit status 1
+2016-06-19T04:35:03.836887+00:00 app[web.1]: npm ERR!     npm bugs screen-app
+2016-06-19T04:35:03.820272+00:00 app[web.1]:     at Module.load (module.js:357:32)
+2016-06-19T04:35:03.836053+00:00 app[web.1]: npm ERR! 
+2016-06-19T04:35:03.836983+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2016-06-19T04:35:04.551388+00:00 heroku[web.1]: Process exited with status 1
+2016-06-19T04:35:04.561706+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-19T05:24:02.587525+00:00 heroku[api]: Deploy ce13b72 by sunilsangwan0098@gmail.com
+2016-06-19T05:24:02.732514+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-19T05:24:02.732526+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-19T05:24:02.587596+00:00 heroku[api]: Release v4 created by sunilsangwan0098@gmail.com
+2016-06-19T05:24:02.763991+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-19T05:24:04.423645+00:00 heroku[web.1]: Starting process with command `npm start`
+2016-06-19T05:24:07.933093+00:00 app[web.1]: 
+2016-06-19T05:24:07.933117+00:00 app[web.1]: > screen-app@0.0.2 start /app
+2016-06-19T05:24:07.933121+00:00 app[web.1]: > node server.js
+2016-06-19T05:24:07.933121+00:00 app[web.1]: 
+2016-06-19T05:24:08.413511+00:00 app[web.1]: Sun Jun 19 2016 05:24:08 GMT+0000 (UTC) Server is listening on port 443
+2016-06-19T05:24:08.805165+00:00 heroku[web.1]: State changed from starting to up
+2016-06-19T05:57:23.454017+00:00 heroku[web.1]: State changed from up to down
+2016-06-19T05:57:23.453409+00:00 heroku[web.1]: Idling
+2016-06-19T05:57:26.231683+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-19T05:57:28.126048+00:00 heroku[web.1]: Process exited with status 143
+2016-06-19T13:04:12.267038+00:00 heroku[web.1]: Unidling
+2016-06-19T13:04:12.267419+00:00 heroku[web.1]: State changed from down to starting
+2016-06-19T13:04:13.360427+00:00 heroku[web.1]: Starting process with command `npm start`
+2016-06-19T13:04:15.148185+00:00 app[web.1]: 
+2016-06-19T13:04:15.148231+00:00 app[web.1]: > screen-app@0.0.2 start /app
+2016-06-19T13:04:15.148239+00:00 app[web.1]: > node server.js
+2016-06-19T13:04:15.148251+00:00 app[web.1]: 
+2016-06-19T13:04:15.286224+00:00 app[web.1]: Sun Jun 19 2016 13:04:15 GMT+0000 (UTC) Server is listening on port 443
+2016-06-19T13:04:15.598236+00:00 heroku[web.1]: State changed from starting to up
+2016-06-19T13:04:16.362029+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/" host=seeittogether.herokuapp.com request_id=83d87f39-74bc-4858-b75e-91eec1adb8c5 fwd="110.172.160.202" dyno=web.1 connect=0ms service=1ms status=503 bytes=0
+2016-06-19T13:04:17.237001+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/favicon.ico" host=seeittogether.herokuapp.com request_id=c0d0dbd9-59f5-41f5-a729-a02b0dc8fd96 fwd="110.172.160.202" dyno=web.1 connect=0ms service=1ms status=503 bytes=0
+2016-06-19T13:15:26.261193+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/" host=seeittogether.herokuapp.com request_id=101b4628-6775-4b9c-a064-19bc7e3b0702 fwd="110.172.160.202" dyno=web.1 connect=1ms service=3ms status=503 bytes=0
+2016-06-19T13:15:27.806623+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/favicon.ico" host=seeittogether.herokuapp.com request_id=d4933e77-39b0-45ac-9c10-0c3ffb896524 fwd="110.172.160.202" dyno=web.1 connect=1ms service=2ms status=503 bytes=0
+2016-06-19T13:21:43.360261+00:00 heroku[api]: Starting process with command `bash` by sunilsangwan0098@gmail.com
+2016-06-19T13:21:45.266646+00:00 heroku[run.7195]: Awaiting client
+2016-06-19T13:21:45.444627+00:00 heroku[run.7195]: State changed from starting to up
+2016-06-19T13:21:48.253864+00:00 heroku[run.7195]: Starting process with command `bash`
+2016-06-19T13:23:00.081352+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=GET path="/" host=seeittogether.herokuapp.com request_id=347a9be9-0aff-4417-a8e7-f5f77438543f fwd="110.172.160.202" dyno=web.1 connect=2ms service=12ms status=503 bytes=0
+2016-06-19T13:29:15.676104+00:00 heroku[run.7195]: Client connection closed. Sending SIGHUP to all processes
+2016-06-19T13:29:16.441463+00:00 heroku[run.7195]: Process exited with status 129
+2016-06-19T13:29:16.454213+00:00 heroku[run.7195]: State changed from up to complete
+2016-06-19T13:30:05.251322+00:00 heroku[api]: Starting process with command `bash` by sunilsangwan0098@gmail.com
+2016-06-19T13:30:09.186510+00:00 heroku[run.4388]: Awaiting client
+2016-06-19T13:30:09.218159+00:00 heroku[run.4388]: Starting process with command `bash`
+2016-06-19T13:30:09.355356+00:00 heroku[run.4388]: State changed from starting to up
+2016-06-19T13:34:21.012892+00:00 heroku[run.4388]: Process exited with status 130
+2016-06-19T13:34:21.015051+00:00 heroku[run.4388]: State changed from up to complete
