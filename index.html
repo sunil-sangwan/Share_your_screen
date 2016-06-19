@@ -73,7 +73,9 @@
 //var  socket = new WebSocket(host);
    // var serverLoc = new WebSocket(host);
   var hostArray = window.location.host.split(':');
-  var serverLoc = 'wss://' + hostArray[0] + ':443/'
+  var port = process.env.PORT || 443
+
+  var serverLoc = 'wss://' + hostArray[0] + ':'+port+'/'
   var socket = new WebSocket(serverLoc);
   var localvid = document.getElementById('localvideo');
   var remotevid = document.getElementById('remotevideo');

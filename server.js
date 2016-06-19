@@ -21,8 +21,8 @@ var server = https.createServer(options, function(request, response) {
     response.end(data);
   }); 
 });
-
-server.listen(443, function() {
+var port = process.env.PORT || 443
+server.listen(port, function() {
   console.log((new Date()) + " Server is listening on port 443");
 });
 
